@@ -1,0 +1,121 @@
+/*----------------------------------------------------------------------------*/
+/*---Main--*/
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    display: block;
+    font-weight: 900;
+    font-size: 120px;
+    text-align: left;
+    color: #fff;
+    padding-top: 500px;
+    padding-left: 70px;
+    padding-bottom: 60px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+h2 {
+    display: block;
+    font-weight: 600;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+h3 {
+    display: block;
+    color: #fff;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------*/
+/*---NavBar--*/
+.manav {    
+    border: none;
+    background: transparent;
+}
+.manav a {
+    font-size: 18px;
+    color: #fff !important;
+}
+.manav a:hover {
+    color: #ccc !important;
+}
+.dropdown-menu {
+    background: transparent;
+}
+.dropdown-menu a {
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+/*---Footer---*/
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+#copyright {
+    text-align: center;
+    width: 50%;
+}
+
+#copyright p {
+    color: #8c8b8a;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#copyright p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*---Projets---*/
+.boite {
+    padding: 30px;
+}
+/*---Image Projets---*/
+.projets {
+    display: block;
+    float: right;
+    height: 300px;
+    width: 500px;
+    border: 2px solid #ccc;
+}
+.present img {
+    margin: 15px;
+    height: 40px;
+    width: 40px;
+}
+.present a{
+    color: #fff;
+    text-decoration: none;
+}
+.present a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+/*---fin projets---*/
