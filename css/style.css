@@ -97,7 +97,15 @@ p {
     text-decoration: none;
     color: #fff;
 }
-
+#logos img {
+    
+    margin: 20px;
+    height:40px;
+    width: 40px;
+}
+#logos {
+    text-align: center;
+}
 
 
 
@@ -129,5 +137,11 @@ p {
 }
 .game {
     margin-bottom: 150px;
+}
+.p2 {
+    animation-delay: 0.5s;
+}
+.p3 {
+    animation-delay: 1s;
 }
 /*---fin projets---*/
